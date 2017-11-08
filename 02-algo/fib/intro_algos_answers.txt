@@ -1,0 +1,42 @@
+Getting to work 
+
+- Open Car Door
+- Place Key into Ignition
+- Turn Ignition On
+- Place foot on Break
+- Shift Car into Reverse
+- let off break pedal to Reverse
+- Break
+- Shift to Drive
+- place foot on Pedal
+- Accelerate
+
+- do while not in parking area
+	- follow path to parking
+	- observe stoplights
+	- if Stoplight is red
+		-Place foot on break to halt
+	  else if yellow or green
+ 	 	- slam pedal
+
+ -begin parking
+ 	- place car in neutral 
+ 	- if parking space trunk first
+ 		- hit breaks
+ 		- place car in reverse
+ 		- reverse to spot
+ 	-else
+ 		-accelerate to spot
+
+ 	-break
+ 	-place car in park mode
+ 	-turn ignition off
+ 	-open door
+ 	-exit
+ 	-close door
+ 	-lock door
+ -end parking
+
+ -walk to work
+
+
