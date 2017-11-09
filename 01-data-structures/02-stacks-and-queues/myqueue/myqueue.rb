@@ -7,12 +7,18 @@ class MyQueue
   def initialize
     @queue = Array.new
     @head = @queue[0]
+    @tail = @queue[0]
   end
+
 
   def enqueue(element) # adds an item to the end the queue
     index = queue.length
     queue[index] = element
-    @head = queue.first
+
+    if index == 0
+      @head = queue.first
+    end
+    #@head = queue.first
     @tail = queue.last 
     print(queue)
   end
