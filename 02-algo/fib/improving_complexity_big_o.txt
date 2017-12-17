@@ -1,0 +1,24 @@
+                           user     system      total        real
+poorly written ruby 250:                                                                               0.010000   0.000000   0.010000 (  0.008261)
+poorly written ruby 1k:                                                                                0.130000   0.000000   0.130000 (  0.136461)
+poorly written ruby 10K:                                                                              13.960000   0.020000  13.980000 ( 13.993769)
+poorly written ruby 100K:                                                                            1437.230000   5.970000 1443.200000 (1450.689234)
+
+codeOptimzed 250:                                                                                      0.000000   0.000000   0.000000 (  0.000308)
+codeOptimzed 1k:                                                                                       0.000000   0.000000   0.000000 (  0.001552)
+codeOptimzed 10K:                                                                                      0.140000   0.000000   0.140000 (  0.141441)
+codeOptimzed 100K:                                                                                    16.450000   0.050000  16.500000 ( 16.558753)
+timeComplexity 250:                                                                                    0.000000   0.000000   0.000000 (  0.000140)
+timeComplexity 1k:                                                                                     0.000000   0.000000   0.000000 (  0.000600)
+timeComplexity 10K:                                                                                    0.010000   0.000000   0.010000 (  0.005702)
+timeComplexity 100K:                                                                                   0.070000   0.000000   0.070000 (  0.069303)
+spaceComplexity 250:                                                                                   0.000000   0.000000   0.000000 (  0.000121)
+spaceComplexity 1k:                                                                                    0.000000   0.000000   0.000000 (  0.000449)
+spaceComplexity 10K:                                                                                   0.000000   0.000000   0.000000 (  0.005586)
+spaceComplexity 100K:                                                                                  0.070000   0.010000   0.080000 (  0.069988)
+
+
+Poorly: O(2^N)
+cO: O(N)
+tC: O(logN)
+sC: O(logN)
